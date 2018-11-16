@@ -1,0 +1,22 @@
+{
+  "name": "translater-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "NODE_ENV=development nodemon -w ./index.js --exec \"npm start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ari Lerner <me@ari.io> (http://willcodeforfoo.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "latest",
+    "ngrok": "latest"
+  },
+  "dependencies": {
+    "micro": "latest",
+    "query-string": "latest",
+    "google-translate-api": "vitalets/google-translate-api"
+  }
+}
